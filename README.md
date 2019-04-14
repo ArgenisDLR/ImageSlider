@@ -2,7 +2,9 @@
 I built a Pinterest style application
 
 # IMAGES
-//coming soon
+https://github.com/ArgenisDLR/Pinterest/blob/master/IMG_2174.PNG
+https://github.com/ArgenisDLR/Pinterest/blob/master/IMG_2174.PNG
+https://github.com/ArgenisDLR/Pinterest/blob/master/IMG_2176.PNG
 
 
 ## What I Learned
