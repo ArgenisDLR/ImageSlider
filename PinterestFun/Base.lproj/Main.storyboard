@@ -42,25 +42,20 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="H4s-eu-l8m">
                                 <rect key="frame" x="0.0" y="116" width="375" height="551"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="5" id="Vfq-0x-8qv">
-                                    <size key="itemSize" width="296" height="206"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
+                                <collectionViewLayout key="collectionViewLayout" id="iYI-Mq-Ovq" customClass="PinterestLayout" customModule="PinterestFun" customModuleProvider="target"/>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCell" id="Fls-zc-zCr" customClass="PhotoCell" customModule="PinterestFun" customModuleProvider="target">
-                                        <rect key="frame" x="39.5" y="0.0" width="296" height="206"/>
+                                        <rect key="frame" x="12.5" y="0.0" width="350" height="337"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="296" height="206"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="350" height="337"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-xj-STV">
                                                     <rect key="frame" x="42" y="39" width="280" height="168"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="200x300" translatesAutoresizingMaskIntoConstraints="NO" id="CyE-fM-XGO">
-                                                            <rect key="frame" x="0.0" y="0.0" width="296" height="206"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="350" height="337"/>
                                                         </imageView>
                                                     </subviews>
                                                 </stackView>
@@ -72,6 +67,7 @@
                                             <constraint firstAttribute="trailing" secondItem="ijj-xj-STV" secondAttribute="trailing" id="pKs-Pk-L3r"/>
                                             <constraint firstAttribute="bottom" secondItem="ijj-xj-STV" secondAttribute="bottom" id="s7I-JP-wdV"/>
                                         </constraints>
+                                        <size key="customSize" width="350" height="337"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="10"/>
